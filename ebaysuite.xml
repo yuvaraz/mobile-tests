@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eBayMobile" preserve-order="true" parallel="none">
+	<parameter name="platform" value="Android"></parameter>
+
+	<test name="Verify Add Product to Cart">
+		<parameter name="username" value="yuvaraz17@gmail.com"/>
+		<parameter name="password" value="test@1234"/>
+		<parameter name="productSearch" value="iphone6"/>
+		<classes> 		    
+			<class name="testcases.VerifyBuyProduct"/>
+		</classes>
+	</test>
+	
+	
+</suite>
+
+
+
